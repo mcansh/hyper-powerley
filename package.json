@@ -1,0 +1,14 @@
+{
+  "name": "hyper-powerley",
+  "version": "1.0.0",
+  "keywords": [
+    "hyperterm",
+    "hyper"
+  ],
+  "description": "a Hyper theme for Powerley",
+  "dependencies": {},
+  "main": "index.js",
+  "author": "Logan McAnsh (lmcansh@powerley.com) <http://powerley.com>",
+  "license": "MIT",
+  "repository": "git@github.com:mcansh/hyper-powerley.git"
+}
