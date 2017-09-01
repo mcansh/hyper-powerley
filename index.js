@@ -71,10 +71,4 @@ exports.decorateConfig = config => Object.assign({}, config, {
       border-color: transparent !important;
     }
   `,
-  termCSS: `
-    ${config.termCSS || ''}
-    x-screen a {
-      color: ${yellow};
-    }
-  `,
 });
