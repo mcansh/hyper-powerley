@@ -52,7 +52,7 @@ exports.decorateConfig = config => Object.assign({}, config, {
   backgroundColor,
   foregroundColor,
   borderColor,
-  cursorColor: foregroundColor,
+  cursorColor: pwlyGreen,
   colors,
   css: `
     ${config.css || ''}
