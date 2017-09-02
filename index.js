@@ -54,8 +54,5 @@ exports.decorateConfig = config => Object.assign({}, config, {
     .tab_tab.tab_active {
       background: none;
     }
-    .tabs_borderShim.borderShim_nfs {
-      border-color: transparent !important;
-    }
   `,
 });
