@@ -8,7 +8,7 @@
   "description": "a Hyper theme for Powerley",
   "dependencies": {},
   "main": "index.js",
-  "author": "Logan McAnsh (lmcansh@powerley.com) <http://powerley.com>",
+  "author": "Logan McAnsh <lmcansh@powerley.com> (http://powerley.com)",
   "license": "MIT",
   "repository": "git@github.com:mcansh/hyper-powerley.git"
 }
