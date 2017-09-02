@@ -20,12 +20,6 @@ const magenta = '#EB487F';
 const cyan = pwlyLightBlue;
 const white = pwlyGray;
 const lightBlack = '#808080';
-const lightRed = red;
-const lightGreen = green;
-const lightYellow = yellow;
-const lightBlue = blue;
-const lightMagenta = magenta;
-const lightCyan = cyan;
 const lightWhite = '#ffffff';
 
 const colors = {
@@ -35,15 +29,8 @@ const colors = {
   yellow,
   blue,
   magenta,
-  cyan,
   white,
   lightBlack,
-  lightRed,
-  lightGreen,
-  lightYellow,
-  lightBlue,
-  lightMagenta,
-  lightCyan,
   lightWhite,
 };
 
