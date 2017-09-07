@@ -1,26 +1,17 @@
 // Constants
 
-const pwlyBlue = '#324354';
-const pwlyOrange = '#FC6C2B';
-const pwlyGreen = '#1EB273';
-const pwlyGray = '#8F969D';
-const pwlyYellow = '#F5A623';
-const pwlyLightBlue = '#4A90E2';
-
-const backgroundColor = pwlyBlue;
-const foregroundColor = '#ffffff';
-const borderColor = 'transparent';
-
 const black = '#000000';
-const red = pwlyOrange;
-const green = pwlyGreen;
-const yellow = pwlyYellow;
-const blue = pwlyLightBlue;
-const magenta = '#EB487F';
-const cyan = pwlyLightBlue;
-const white = pwlyGray;
-const lightBlack = '#808080';
-const lightWhite = '#ffffff';
+const red = '#E0454A';
+const green = '#1EB273';
+const yellow = '#F5A623';
+const blue = '#1F455D';
+const magenta = '#E91D76';
+const white = '#CCD3DB';
+const lightGray = '#AEB7BF';
+const lightYellow = '#FFC105';
+const lightBlue = '#469BF6';
+const purple = '#836EEE';
+const lightWhite = '#FFFFFF';
 
 const colors = {
   black,
@@ -30,16 +21,19 @@ const colors = {
   blue,
   magenta,
   white,
-  lightBlack,
+  lightBlack: lightGray,
+  lightYellow,
+  lightBlue,
+  lightMagenta: purple,
   lightWhite,
 };
 
 // Apply theme
 exports.decorateConfig = config => Object.assign({}, config, {
-  backgroundColor,
-  foregroundColor,
-  borderColor,
-  cursorColor: pwlyGreen,
+  backgroundColor: blue,
+  foregroundColor: white,
+  borderColor: 'transparent',
+  cursorColor: green,
   colors,
   css: `
     ${config.css || ''}
